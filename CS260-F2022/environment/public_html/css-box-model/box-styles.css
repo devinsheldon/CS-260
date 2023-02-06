@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: #414141;               /* Dark gray */
+  background-color: #EEEEEE;    /* Light gray */
+  font-size: 18px;
+  text-align: center;
+}
+
+h1, p {
+  background-color: #DDE0E3;    /* Light gray */
+}
+
+h1 {
+    padding: 1.5em;
+    /*border: 1px solid #5D6063;*/
+    border-bottom: 1px solid #5D6063;
+}
+
+p {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 10px;
+  padding-right: 0px;
+  /* Also written as:
+  padding: 20px 0 20px 10px;  /* Top  Right  Bottom  Left */
+  /*OR you can do: 
+  padding: 20px 10px;  /* Vertical  Horizontal */
+  margin-bottom: 50px;
+  
+}
+
+em, strong {
+  background-color: #B2D6FF;    /* Light blue */
+  display: inline;
+}
+
+div {
+  color: #FFF;
+  background-color: #5995DA;
+  font-weight: bold;
+  padding: 20px;
+  text-align: center;
+  border: 2px solid #5D6063;
+  border-radius: 5px;
+  
+  width: 200px;
+  box-sizing: border-box;
+  margin: 20px auto; /* Vertical  Horizontal */ /* auto only works on blocks that have an explicit width defined on them. */
+}
